@@ -1,0 +1,13 @@
+.description__container-photo-fix {
+  display: flex;
+  max-width: 440px;
+  max-height: 300px;
+  border-radius: 20px;
+  background-color: #F4F4F4;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 327px;
+  bottom: 79px;
+}
