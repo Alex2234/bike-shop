@@ -1,0 +1,4 @@
+.quote__photo {
+  grid-area: photo;
+  width: 100%;
+}

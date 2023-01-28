@@ -1,0 +1,9 @@
+.description__title {
+  margin: 0;
+  padding-top: 60px;
+  grid-area: title;
+  font-weight: 700;
+  line-height: 1.09;
+  font-size: 55px;
+  letter-spacing: -0.5px;
+}

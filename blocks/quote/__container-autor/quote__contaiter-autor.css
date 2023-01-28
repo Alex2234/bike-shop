@@ -1,0 +1,7 @@
+.quote__container-autor {
+  grid-area: container-autor;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-self: end;
+}

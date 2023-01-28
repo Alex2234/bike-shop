@@ -1,4 +1,5 @@
 .header {
+  position: sticky;
   min-height: 74px;
   padding: 0 120px;
   display: flex;
