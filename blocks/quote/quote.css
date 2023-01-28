@@ -1,0 +1,9 @@
+.quote {
+  display: grid;
+  padding: 120px 120px 60px 120px;
+  grid-template-areas:
+  "photo title"
+  "photo container-autor";
+  grid-template-columns: minmax(min-content, 650px) minmax(min-content, 470px);
+  column-gap: 80px;
+}

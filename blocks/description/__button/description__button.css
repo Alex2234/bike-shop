@@ -1,0 +1,17 @@
+.description__button {
+  grid-area:  button;
+  border: none;
+  margin-bottom: 117px;
+  background-color: #24B47E;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 180px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1.29;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 16px 0;
+}

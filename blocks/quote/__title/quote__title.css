@@ -1,0 +1,8 @@
+.quote__title {
+  grid-area: title;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.29;
+  font-size: 34px;
+  letter-spacing: -0.5px;
+}

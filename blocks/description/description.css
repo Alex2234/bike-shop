@@ -1,0 +1,11 @@
+.description {
+  padding: 20px 0 0 120px;
+  display: grid;
+  grid-template-areas:
+  "title fon"
+  "subtitle fon"
+  "button fon"
+  "note fon";
+  gap: 50px 50px;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 810px);
+}
