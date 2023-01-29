@@ -1,0 +1,5 @@
+.higway__arrows {
+  grid-area: arrows;
+  display: flex;
+  gap: 20px;
+}

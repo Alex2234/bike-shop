@@ -1,0 +1,9 @@
+.higway__container-photos {
+  width: 100%;
+  grid-area: container-photo;
+  display: flex;
+  gap: 40px;
+  position: relative;
+}
+
+

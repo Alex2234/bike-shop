@@ -1,0 +1,9 @@
+.slider-button_theme_higway {
+    background-color: #EBEBEB;
+}
+
+.slider-button_theme_higway:hover {
+    cursor: pointer;
+    opacity: .6;
+}
+

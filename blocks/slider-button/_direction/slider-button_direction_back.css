@@ -1,0 +1,10 @@
+.slider-button_direction_back {
+    background-image: url(../../../images/arrow_back.svg);
+}
+
+
+@media screen and (max-width: 1110px) {
+    .slider-button_direction_back {
+        background-image: url(../../../images/arrow_back-mobile.svg);
+    }
+}

@@ -1,0 +1,8 @@
+.higway__photo {
+ width: 100%;
+}
+
+.higway__photo:nth-child(2) {
+  overflow: hidden;
+}
+

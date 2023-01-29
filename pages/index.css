@@ -31,3 +31,19 @@
 @import url(../blocks/quote/__name/quote__name.css);
 @import url(../blocks/quote/__container-autor/quote__contaiter-autor.css);
 
+@import url(../blocks/higway/higway.css);
+@import url(../blocks/higway/__slide/higway__slide.css);
+@import url(../blocks/higway/__title/higway__title.css);
+@import url(../blocks/higway/__subtitle/higway__subtitle.css);
+@import url(../blocks/higway/__container-photos/higway__container-photos.css);
+@import url(../blocks/higway/__diagramma/higway__diagramma.css);
+@import url(../blocks/higway/__diagramma-pulse/higway__diagramma-pulse.css);
+@import url(../blocks/higway/__photo/higway__photo.css);
+@import url(../blocks/higway/__arrows/higway__arrows.css);
+
+@import url(../blocks/slider-button/slider-button.css);
+@import url(../blocks/slider-button/_theme/slider-button_theme_higway.css);
+@import url(../blocks/slider-button/_direction/slider-button_direction_back.css);
+@import url(../blocks/slider-button/_direction/slider-button_direction_forward.css);
+
+
