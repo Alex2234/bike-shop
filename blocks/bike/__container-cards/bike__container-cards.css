@@ -1,0 +1,6 @@
+.bike__container-cards {
+  grid-area: container;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,16 @@
+.bike__kind {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.56;
+  font-size: 18px;
+  opacity: .7;
+  cursor: pointer;
+}
+
+.bike__kind.bike__kind_active:hover {
+  opacity: .75;
+}
+
+.bike__kind:hover {
+  opacity: .6;
+}
