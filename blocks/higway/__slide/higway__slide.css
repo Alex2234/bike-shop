@@ -1,0 +1,10 @@
+.higway__slide {
+  display: grid;
+  grid-template-areas:
+  "title"
+  "subtitle"
+  "container-photo"
+  "arrows";
+  row-gap: 50px;
+  grid-template-columns: minmax(min-content, max-content);
+}

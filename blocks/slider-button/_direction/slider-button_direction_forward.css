@@ -1,0 +1,12 @@
+.slider-button_direction_forward {
+    background-image: url(../../../images/arrow_forward.svg);
+}
+
+
+
+
+@media screen and (max-width: 1110px) {
+    .slider-button_direction_forward {
+        background-image: url(../../../images/arrow_forward-mobile.svg);
+    }
+}

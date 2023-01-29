@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru" class="scroll">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Bike Shop</title>
-</head>
-<body class="body">
-  <div class="page">
-    <header class="header">
-      <a href="#higway" class="header__link">Покрытия и градиенты</a>
-      <a href="#bike" class="header__link">Велосипеды</a>
-      <a href="#train" class="header__link">Тренировки</a>
-    </header>
-    <main class="content">
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <a href="#higway" class="header__link">Покрытия и градиенты</a>
+        <a href="#bike" class="header__link">Велосипеды</a>
+        <a href="#train" class="header__link">Тренировки</a>
+      </header>
+      <main class="content">
         <section class="description">
           <h1 class="description__title">Шоссе, ТТ и Грэвел</h1>
-          <p class="description__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по
-            живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+          <p class="description__subtitle">
+            Триатлонные старты, горные серпантины или грейвел заезды по
+            живописным маршрутам – нужно только определиться с выбором
+            велосипеда и отправиться в путь.
+          </p>
           <button type="button" class="description__button">Подробнее</button>
           <div class="description__note">
             <p class="description__note-title">Cannondale Systemsix</p>
@@ -26,27 +29,129 @@
           </div>
           <div class="description__background">
             <div class="description__container-photo-fix">
-              <img src="./images/Cannondale Systemsix Himod.jpg" alt="" class="description__photo-fix">
+              <img
+                src="./images/Cannondale Systemsix Himod.jpg"
+                alt=""
+                class="description__photo-fix"
+              />
             </div>
           </div>
         </section>
         <section class="quote">
-          <img src="./images/Placeholder2.jpg" alt="" class="quote__photo">
-          <h2 class="quote__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+          <img src="./images/Placeholder2.jpg" alt="" class="quote__photo" />
+          <h2 class="quote__title">
+            «Катайся много или мало, долго или коротко, как хочешь - но катайся»
+          </h2>
           <div class="quote__container-autor">
             <p class="quote__name">Эдди Меркс</p>
             <p class="quote__speciality">Велогонщик</p>
           </div>
         </section>
-        <section class="highway" id="higway">
-          
+        <section class="higway" id="higway">
+          <div class="higway__slide">
+            <h2 class="higway__title">Шоссе</h2>
+            <p class="higway__subtitle">
+              На шоссейном велосипеде можно ездить по асфальту на разных
+              градиентах: будь то горы или равнины. Гонки проходят в командном
+              пелотоне, но тренироваться можно и самостоятельно.
+            </p>
+            <div class="higway__container-photos">
+              <div class="higway__diagramma">
+                <img src="./images/higway.svg" alt="" class="higway__diagramma-pulse">
+              </div>
+              <img
+                src="./images/Placeholder3.jpg"
+                alt=""
+                class="higway__photo"
+              />
+              <img
+                src="./images/Placeholder4.jpg"
+                alt=""
+                class="higway__photo"
+              />
+            </div>
+            <div class="higway__arrows">
+              <button
+                type="button"
+                class="slider-button slider-button_theme_higway slider-button_direction_back"
+              ></button>
+              <button
+                type="button"
+                class="slider-button slider-button_theme_higway slider-button_direction_forward"
+              ></button>
+            </div>
+          </div>
+          <div class="higway__slide">
+            <h2 class="higway__title">Грэвел</h2>
+            <p class="higway__subtitle">
+              Грэвел похож на шоссейный велосипед, но конструкция рамы немного
+              отличается, и на нём стоят более широкие покрышки, всё для того
+              чтобы проехать по лёгкому бездорожью.
+            </p>
+            <div class="higway__container-photos">
+              <div class="higway__diagramma">
+                <img src="./images/Gravel.svg" alt="" class="higway__diagramma-pulse">
+              </div>
+              <img
+                src="./images/Placeholder4.jpg"
+                alt=""
+                class="higway__photo"
+              />
+              <img
+                src="./images/Placeholder5.jpg"
+                alt=""
+                class="higway__photo"
+              />
+            </div>
+            <div class="higway__arrows">
+              <button
+                type="button"
+                class="slider-button slider-button_theme_higway slider-button_direction_back"
+              ></button>
+              <button
+                type="button"
+                class="slider-button slider-button_theme_higway slider-button_direction_forward"
+              ></button>
+            </div>
+          </div>
+          <div class="higway__slide">
+            <h2 class="higway__title">ТТ</h2>
+            <p class="higway__subtitle">
+              ТТ — это велосипед для триатлона или раздельного старта, гооняют
+              на таком велике только по равнинному асфальту, велик очень быстрые
+              и аэродинамичный.
+            </p>
+            <div class="higway__container-photos">
+              <div class="higway__diagramma">
+                <img src="./images/tt.svg" alt="" class="higway__diagramma-pulse">
+              </div>
+              <img
+                src="./images/Placeholder5.jpg"
+                alt=""
+                class="higway__photo"
+              />
+              <img
+                src="./images/Placeholder3.jpg"
+                alt=""
+                class="higway__photo"
+              />
+            </div>
+            <div class="higway__arrows">
+              <button
+                type="button"
+                class="slider-button slider-button_theme_higway slider-button_direction_back"
+              ></button>
+              <button
+                type="button"
+                class="slider-button slider-button_theme_higway slider-button_direction_forward"
+              ></button>
+            </div>
+          </div>
         </section>
         <section class="bike" id="bike"></section>
         <section class="train" id="train"></section>
-    </main>
-    <footer class="footer">
-
-    </footer>
-  </div>
-</body>
+      </main>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
