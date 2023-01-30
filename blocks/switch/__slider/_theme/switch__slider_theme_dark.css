@@ -1,0 +1,4 @@
+.switch__slider_theme_dark {
+  transform: translateX(100%);
+  transition: .3s;
+}
