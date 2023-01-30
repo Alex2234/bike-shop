@@ -1,0 +1,4 @@
+.train__photo {
+  grid-area: photo;
+  background-image: url(../../../images/Placeholder7.jpg);
+}

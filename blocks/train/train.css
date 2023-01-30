@@ -1,0 +1,11 @@
+.train {
+  padding: 150px 120px 120px 120px;
+  display: grid;
+  grid-template-areas:
+  "title photo"
+  "subtitle photo"
+  "application photo";
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 580px);
+  column-gap: 160px;
+  row-gap: 50px;
+}

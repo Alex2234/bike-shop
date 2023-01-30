@@ -46,4 +46,20 @@
 @import url(../blocks/slider-button/_direction/slider-button_direction_back.css);
 @import url(../blocks/slider-button/_direction/slider-button_direction_forward.css);
 
+@import url(../blocks/bike/bike.css);
+@import url(../blocks/bike/__title/bike__title.css);
+@import url(../blocks/bike/__kinds/bike__kinds.css);
+@import url(../blocks/bike/__kind/bike__kind.css);
+@import url(../blocks/bike/__kind/_active/bike__kind_active.css);
+@import url(../blocks/bike/__container-cards/bike__container-cards.css);
+@import url(../blocks/bike/__wrapper-card/bike__wrapper-card.css);
+@import url(../blocks/bike/__card/bike__card.css);
+@import url(../blocks/bike/__photo/bike__photo.css);
+@import url(../blocks/bike/__subtitle/bike__subtitle.css);
 
+@import url(../blocks/train/train.css);
+@import url(../blocks/train/__title/train__title.css);
+@import url(../blocks/train/__subtitle/train__subtitle.css);
+@import url(../blocks/train/__photo/train__photo.css);
+@import url(../blocks/train/__applications/train__applications.css);
+@import url(../blocks/train/__application/train__application.css);
