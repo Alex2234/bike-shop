@@ -1,0 +1,8 @@
+.bike {
+  padding: 60px 120px;
+  display: grid;
+  grid-template-areas:
+  "title kinds"
+  "container container";
+  row-gap: 120px;
+}

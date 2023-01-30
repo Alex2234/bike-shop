@@ -1,0 +1,5 @@
+.train__applications {
+  grid-area: application;
+  display: flex;
+  gap: 30px;
+}
