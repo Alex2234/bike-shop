@@ -10,4 +10,14 @@
   bottom: 16px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .higway__diagramma {
+    min-width: 70px;
+    min-height: 28px;
+    background-size: 70px 28px;
+    bottom: 14px;
+  }
 }

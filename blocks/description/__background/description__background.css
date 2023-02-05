@@ -6,3 +6,12 @@
   background-repeat: no-repeat;
   position: relative;
 }
+
+@media (max-width: 900px) {
+  .description__background {
+   min-width: 254px;
+   min-height: 348px;
+   object-fit: fill;
+   background-size: 254px 348px;
+  }
+}

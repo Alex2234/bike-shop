@@ -1,0 +1,9 @@
+.switch__container {
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+  border-radius: 9999px;
+  position: relative;
+  cursor: pointer;
+  background-color: #fff;
+}

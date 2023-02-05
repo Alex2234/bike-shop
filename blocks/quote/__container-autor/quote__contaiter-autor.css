@@ -5,3 +5,9 @@
   gap: 6px;
   align-self: end;
 }
+
+@media (max-width: 900px) {
+  .quote__container-autor {
+    gap: 4px;
+  }
+}

@@ -1,6 +1,13 @@
 .train__application {
-  margin: 0;
+  text-decoration: none;
+  color: #151515;
   font-weight: 600;
   line-height: 1.56;
   font-size: 18px;
+  transition: .3s;
+}
+
+
+.train__application:hover {
+  opacity: .75;
 }

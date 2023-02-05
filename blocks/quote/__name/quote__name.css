@@ -4,3 +4,10 @@
   line-height: 1.6;
   font-size: 20px;
 }
+
+@media (max-width: 900px) {
+  .quote__name {
+    letter-spacing: 1.57;
+    font-size: 14px;
+  }
+}

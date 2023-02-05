@@ -6,3 +6,10 @@
   font-size: 34px;
   letter-spacing: -0.5px;
 }
+
+@media (max-width: 900px) {
+  .quote__title {
+    letter-spacing: 1.26;
+    font-size: 23px;
+  }
+}

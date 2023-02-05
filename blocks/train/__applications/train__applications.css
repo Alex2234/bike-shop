@@ -2,4 +2,11 @@
   grid-area: application;
   display: flex;
   gap: 30px;
+  margin-top: 132px;
+}
+
+@media (max-width: 900px) {
+  .train__applications {
+   margin-top: 0;
+  }
 }

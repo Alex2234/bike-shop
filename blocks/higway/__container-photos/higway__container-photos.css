@@ -7,3 +7,9 @@
 }
 
 
+@media (max-width: 900px) {
+  .higway__container-photos{
+  gap: 0;
+  display: block;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__container-form {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+  padding-left: 20px;
+  grid-area: form;
+  height: 50px;
+  margin-bottom: 50px;
+  max-width: 360px;
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.footer__container-form:hover .footer__input-mail   {
+   opacity: 1;
+   border: 1px solid #C7C7C7;
+}

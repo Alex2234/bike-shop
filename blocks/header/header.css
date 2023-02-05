@@ -1,9 +1,15 @@
 .header {
-  position: sticky;
   min-height: 74px;
   padding: 0 120px;
   display: flex;
   justify-content: end;
   align-items: center;
   column-gap: 34px;
+}
+
+
+@media (max-width: 900px) {
+  .header {
+    padding: 0 18px;
+  }
 }

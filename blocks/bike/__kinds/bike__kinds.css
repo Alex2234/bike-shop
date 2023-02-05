@@ -5,3 +5,9 @@
   align-items: center;
   justify-content: end;
 }
+
+@media (max-width: 900px) {
+  .bike__kinds {
+   display: none;
+  }
+}

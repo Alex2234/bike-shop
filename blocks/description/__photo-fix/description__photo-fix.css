@@ -1,4 +1,20 @@
 .description__photo-fix {
-  max-height: 260px;
-  max-width: 340px;
+  background-color: #F4F4F4;
+  padding: 20px 50px;
+  border-radius: 20px;
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  position: sticky;
+  top: 347px;
+  margin-bottom: 79px;
+}
+
+@media (max-width: 900px) {
+  .description__photo-fix {
+    padding: 10.67px 26.59px;
+    max-width: 180.82px;
+    max-height: 138.67px;
+    top: 151px;
+    margin-bottom: 37px;
+
+  }
 }
