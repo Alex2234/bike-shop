@@ -9,3 +9,17 @@
   gap: 50px 50px;
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 810px);
 }
+
+@media (max-width: 900px) {
+  .description {
+    padding: 40px 18px;
+    grid-template-areas:
+    "title"
+    "fon"
+    "subtitle"
+    "button";
+    grid-template-columns: minmax(min-content, 284px);
+    gap: 40px;
+    justify-content: center;
+  }
+}

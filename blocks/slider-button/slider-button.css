@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     width: 50px;
-    min-height: 50px;
+    height: 50px;
     border-radius: 50px;
     background-color: transparent;
     background-position: center;
@@ -11,10 +11,10 @@
     transition: .3s;
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 900px) {
     .slider-button {
         width: 24px;
-        min-height: 24px;
-        border-radius: 6px;
+        height: 24px;
+        border-radius: 30px;
     }
 }

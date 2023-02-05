@@ -6,3 +6,9 @@
   column-gap: 30px;
   align-items: center;
 }
+
+@media (max-width: 900px) {
+  .description__note {
+    display: none;
+  }
+}

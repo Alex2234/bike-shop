@@ -1,0 +1,9 @@
+.footer__button {
+  margin: 0;
+  font-weight: 500;
+  line-height: 2.15;
+  font-size: 13px;
+  padding-right: 11px;
+  display: none;
+}
+

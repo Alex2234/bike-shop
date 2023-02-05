@@ -1,0 +1,11 @@
+.footer__naming {
+  margin: 0;
+  grid-area: naming;
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #CFCFCF;
+  justify-self: start;
+}
+
+

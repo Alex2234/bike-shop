@@ -15,4 +15,36 @@
   letter-spacing: 1px;
   padding: 16px 0;
   cursor: pointer;
+  position: relative;
+  transition: .5s;
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .description__button {
+    max-width: 284px;
+    margin-bottom: 0;
+    line-height: 1.49;
+    font-size: 13px;
+  }
+}
+
+
+.description__button::before {
+  content: "";
+  display: block;
+  background-color: #319E75;
+  width: 0;
+  height: 100%;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  z-index: -1;
+}
+
+
+.description__button:hover::before {
+  width: 100%;
 }

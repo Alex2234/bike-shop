@@ -6,6 +6,20 @@
   "subtitle photo"
   "application photo";
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 580px);
-  column-gap: 160px;
   row-gap: 50px;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .train {
+    padding: 80px 18px 60px 18px;
+    grid-template-areas:
+    "title"
+    "photo"
+    "subtitle"
+    "application";
+    grid-template-columns: minmax(min-content, 284px);
+    row-gap: 40px;
+    justify-content: center;
+  }
 }

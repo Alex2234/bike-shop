@@ -5,7 +5,7 @@
 
 
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 900px) {
     .slider-button_direction_forward {
         background-image: url(../../../images/arrow_forward-mobile.svg);
     }
