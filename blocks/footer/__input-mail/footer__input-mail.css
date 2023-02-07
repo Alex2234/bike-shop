@@ -1,12 +1,11 @@
 .footer__input-mail {
   padding: 0;
   border: none;
-  outline: none;
   margin: 0;
   font-weight: 500;
   line-height: 2.15;
   font-size: 13px;
-  background-color: #F4F4F4;
+  background-color: transparent;
   opacity: .7;
   transition: .3s;
   -webkit-appearance: none;

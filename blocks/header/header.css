@@ -2,9 +2,8 @@
   min-height: 74px;
   padding: 0 120px;
   display: flex;
-  justify-content: end;
   align-items: center;
-  column-gap: 34px;
+  justify-content: end;
 }
 
 

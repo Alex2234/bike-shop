@@ -18,7 +18,7 @@
     "fon"
     "subtitle"
     "button";
-    grid-template-columns: minmax(min-content, 284px);
+    grid-template-columns: minmax(284px, max-content);
     gap: 40px;
     justify-content: center;
   }
