@@ -1,0 +1,4 @@
+.burger__line_position_centr {
+  top: 50%;
+  transform: translateY(-50%);
+}

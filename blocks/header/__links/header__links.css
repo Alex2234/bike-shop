@@ -1,0 +1,11 @@
+.header__links {
+  display: flex;
+  gap: 34px;
+  justify-content: end;
+}
+
+@media (max-width: 900px) {
+  .header__links {
+    display: none;
+  }
+}

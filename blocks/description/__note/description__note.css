@@ -1,0 +1,14 @@
+.description__note {
+  display: flex;
+  margin-bottom: 209px;
+  grid-area: note;
+  justify-self: start;
+  column-gap: 30px;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .description__note {
+    display: none;
+  }
+}

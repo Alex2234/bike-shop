@@ -1,0 +1,14 @@
+.header {
+  min-height: 74px;
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+@media (max-width: 900px) {
+  .header {
+    padding: 0 18px;
+  }
+}

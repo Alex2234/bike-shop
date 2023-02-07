@@ -1,0 +1,13 @@
+.quote__container-autor {
+  grid-area: container-autor;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-self: end;
+}
+
+@media (max-width: 900px) {
+  .quote__container-autor {
+    gap: 4px;
+  }
+}

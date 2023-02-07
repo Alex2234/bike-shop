@@ -1,0 +1,25 @@
+.description {
+  padding: 20px 0 0 120px;
+  display: grid;
+  grid-template-areas:
+  "title fon"
+  "subtitle fon"
+  "button fon"
+  "note fon";
+  gap: 50px 50px;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 810px);
+}
+
+@media (max-width: 900px) {
+  .description {
+    padding: 40px 18px;
+    grid-template-areas:
+    "title"
+    "fon"
+    "subtitle"
+    "button";
+    grid-template-columns: minmax(284px, max-content);
+    gap: 40px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,10 @@
+.switch {
+ grid-area: switch;
+ gap: 22px;
+ align-items: center;
+ justify-content: end;
+ align-self: end;
+ justify-self: end;
+}
+
+

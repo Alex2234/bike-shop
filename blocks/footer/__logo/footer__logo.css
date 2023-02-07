@@ -1,0 +1,10 @@
+.footer__logo {
+  display: none;
+}
+
+
+@media (max-width: 900px) {
+  .footer__logo {
+    display: block;
+  }
+}

@@ -1,0 +1,11 @@
+.higway__diagramma-pulse {
+  width: 50px;
+  height: 16px;
+}
+
+@media (max-width: 900px) {
+  .higway__diagramma-pulse {
+    width: 35px;
+    height: 12px;
+  }
+}

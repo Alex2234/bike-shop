@@ -1,0 +1,20 @@
+.bike {
+  padding: 60px 120px;
+  display: grid;
+  grid-template-areas:
+  "title kinds"
+  "container container";
+  row-gap: 120px;
+}
+
+
+@media (max-width: 900px) {
+  .bike {
+   grid-template-areas:
+   "title"
+   "selects"
+   "container";
+   row-gap: 20px;
+   padding: 80px 18px 40px 18px;
+  }
+}

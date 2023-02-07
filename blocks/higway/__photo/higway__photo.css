@@ -1,0 +1,14 @@
+.higway__photo {
+ width: 100%;
+ overflow: hidden;
+}
+
+.higway__photo:nth-child(2) {
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .higway__photo:nth-child(2) {
+    display: none;
+  }
+}

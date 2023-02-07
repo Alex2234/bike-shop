@@ -1,0 +1,16 @@
+.bike__container-cards {
+  grid-area: container;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+
+@media (max-width: 900px) {
+  .bike__container-cards {
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,4 @@
+.menu_active {
+  transform:translateY(0);
+  transition: .3s;
+}

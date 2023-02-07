@@ -1,0 +1,25 @@
+.footer__input-mail {
+  padding: 0;
+  border: none;
+  margin: 0;
+  font-weight: 500;
+  line-height: 2.15;
+  font-size: 13px;
+  background-color: transparent;
+  opacity: .7;
+  transition: .3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.footer__input-mail:focus ~ .footer__button {
+  display: block;
+}
+
+.footer__input-mail:focus::-webkit-input-placeholder {
+  color: transparent
+}

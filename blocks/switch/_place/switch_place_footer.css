@@ -1,0 +1,9 @@
+.switch_place_footer {
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .switch_place_footer {
+    display: none;
+  }
+}

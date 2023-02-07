@@ -1,0 +1,13 @@
+.higway__arrows {
+  grid-area: arrows;
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .higway__arrows {
+    justify-self: end;
+    gap: 10px;
+    align-items: center;
+  }
+}
