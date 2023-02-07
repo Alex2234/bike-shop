@@ -1,6 +1,5 @@
 .switch {
  grid-area: switch;
- display: flex;
  gap: 22px;
  align-items: center;
  justify-content: end;
@@ -8,8 +7,4 @@
  justify-self: end;
 }
 
-@media (max-width: 900px) {
-  .switch {
-    display: none;
-  }
-}
+

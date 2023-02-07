@@ -1,0 +1,16 @@
+.burger_active .burger__line_position_centr {
+  opacity: 0;
+}
+
+.burger_active .burger__line_position_bottom, .burger_active .burger__line_position_top {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.burger_active .burger__line_position_bottom {
+  transform: rotate(45deg);
+ }
+
+ .burger_active .burger__line_position_top {
+  transform: rotate(-45deg);
+ }

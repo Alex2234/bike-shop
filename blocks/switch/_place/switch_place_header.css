@@ -1,0 +1,12 @@
+.switch_place_header {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .switch_place_header {
+    display: flex;
+    align-self: center;
+    margin-bottom: 36px;
+    margin-top: 314px;
+  }
+}

@@ -8,20 +8,43 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/body/_dark/body_dark.css);
+
+@import url(../blocks/page/_dark/page_dark.css);
+
+
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_dark/header__link_dark.css);
+
+@import url(../blocks/burger/burger.css);
+@import url(../blocks/burger/_active/burger_active.css);
+@import url(../blocks/burger/__line/burger__line.css);
+@import url(../blocks/burger/__line/_position/burger__line_position_top.css);
+@import url(../blocks/burger/__line/_position/burger__line_position_centr.css);
+@import url(../blocks/burger/__line/_position/burger__line_position_bottom.css);
+@import url(../blocks/burger/_dark/burger_dark.css);
+@import url(../blocks/burger/__line/_dark/burger__line_dark.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_active/menu_active.css);
+@import url(../blocks/menu/_dark/menu_dark.css);
 
 @import url(../blocks/content/content.css);
 
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/_dark/subtitle_dark.css);
+
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__title/description__title.css);
-@import url(../blocks/description/__subtitle/description__subtitle.css);
 @import url(../blocks/description/__button/description__button.css);
 @import url(../blocks/description/__note/description__note.css);
 @import url(../blocks/description/__note-title/description__note-title.css);
 @import url(../blocks/description/__note-line/description__note-line.css);
 @import url(../blocks/description/__background/description__background.css);
-@import url(../blocks/description/__container-photo-fix/description__container-photo-fix.css);
 @import url(../blocks/description/__photo-fix/description__photo-fix.css);
 
 @import url(../blocks/quote/quote.css);
@@ -33,7 +56,6 @@
 
 @import url(../blocks/higway/higway.css);
 @import url(../blocks/higway/__slide/higway__slide.css);
-@import url(../blocks/higway/__title/higway__title.css);
 @import url(../blocks/higway/__subtitle/higway__subtitle.css);
 @import url(../blocks/higway/__container-photos/higway__container-photos.css);
 @import url(../blocks/higway/__diagramma/higway__diagramma.css);
@@ -45,21 +67,45 @@
 @import url(../blocks/slider-button/_theme/slider-button_theme_higway.css);
 @import url(../blocks/slider-button/_direction/slider-button_direction_back.css);
 @import url(../blocks/slider-button/_direction/slider-button_direction_forward.css);
+@import url(../blocks/slider-button/_theme/slider-button_theme_dark.css);
 
 @import url(../blocks/bike/bike.css);
-@import url(../blocks/bike/__title/bike__title.css);
 @import url(../blocks/bike/__kinds/bike__kinds.css);
 @import url(../blocks/bike/__kind/bike__kind.css);
-@import url(../blocks/bike/__kind/_active/bike__kind_active.css);
+@import url(../blocks/bike/__selects/bike__selects.css);
+@import url(../blocks/bike/__select/bike__select.css);
+@import url(../blocks/bike/_active/bike_active.css);
 @import url(../blocks/bike/__container-cards/bike__container-cards.css);
 @import url(../blocks/bike/__wrapper-card/bike__wrapper-card.css);
 @import url(../blocks/bike/__card/bike__card.css);
 @import url(../blocks/bike/__photo/bike__photo.css);
 @import url(../blocks/bike/__subtitle/bike__subtitle.css);
+@import url(../blocks/bike/__container-cards/_opened/bike__container-cards_opened.css);
 
 @import url(../blocks/train/train.css);
-@import url(../blocks/train/__title/train__title.css);
-@import url(../blocks/train/__subtitle/train__subtitle.css);
 @import url(../blocks/train/__photo/train__photo.css);
 @import url(../blocks/train/__applications/train__applications.css);
 @import url(../blocks/train/__application/train__application.css);
+@import url(../blocks/train/__application/_dark/train__application_dark.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_dark/footer_dark.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__naming/footer__naming.css);
+@import url(../blocks/footer/__container-form/footer__container-form.css);
+@import url(../blocks/footer/__input-mail/footer__input-mail.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__container-naming/footer__container-naming.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+
+@import url(../blocks/switch/switch.css);
+@import url(../blocks/switch/__container/switch__container.css);
+@import url(../blocks/switch/__container/_dark/switch__container_dark.css);
+@import url(../blocks/switch/__icon/switch__icon.css);
+@import url(../blocks/switch/__slider/switch__slider.css);
+@import url(../blocks/switch/__input/switch__input.css);
+@import url(../blocks/switch/__slider/_theme/switch__slider_theme_dark.css);
+@import url(../blocks/switch/_place/switch_place_footer.css);
+@import url(../blocks/switch/_place/switch_place_header.css);
+
+@import url(../blocks/slider-display/_none/slider-display_none.css);
